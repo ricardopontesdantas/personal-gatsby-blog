@@ -44,15 +44,14 @@ const Bio = () => {
       />
       {author?.name && (
         <p>
-          {author?.summary || null}
+          Ficou com alguma dúvida? Quer sugerir alguma alteração?
           {` `}
           <a
             target={"_blank"}
             href={`https://twitter.com/${social?.twitter || ``}`}
           >
-            no Twitter
+            Me chama aqui no Twitter pra gente bater um papo =)
           </a>{" "}
-          para conversarmos =)
         </p>
       )}
     </div>
