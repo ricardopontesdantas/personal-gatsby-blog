@@ -3,7 +3,7 @@ module.exports = {
     title: `Blog`,
     author: {
       name: `Ricardo Dantas`,
-      summary: `Caso queira conversar comigo a respeito do conteúdo, basta me chamar `,
+      summary: `Full-Stack Developer PHP | JS`,
     },
     description: `Blog com posts sobre PHP e JavaScript.`,
     siteUrl: `https://blog.ricardodantas.dev`,
