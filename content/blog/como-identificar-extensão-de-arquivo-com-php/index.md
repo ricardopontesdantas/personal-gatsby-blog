@@ -1,5 +1,5 @@
 ---
-title: Como identificar extensão de arquivo, com PHP
+title: Como identificar extensão de arquivo com PHP
 date: 2022-09-13T13:57:58.817Z
 description: "#php #pathinfo"
 ---
