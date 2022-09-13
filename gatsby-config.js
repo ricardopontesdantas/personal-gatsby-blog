@@ -8,7 +8,7 @@ module.exports = {
     description: `Blog com posts sobre PHP e JavaScript.`,
     siteUrl: `https://blog.ricardodantas.dev`,
     social: {
-      twitter: `rickzena`,
+      twitter: `ricardopontesdantas`,
     },
   },
   plugins: [
