@@ -5,7 +5,7 @@ description: "#php #strrev"
 ---
 Para inverter uma string podemos utilizar a função `strrev()`, que recebe uma string como parâmetro e retorna a mesma string porém invertida. Então caso passemos como argumento a string 'foo', será retornada a string 'oof'.
 
-```
+```php
 $string = 'foo';
 $reversedString = strrev('foo');
 echo $reversedString;
