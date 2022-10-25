@@ -47,14 +47,20 @@ console.log(description)
 N﻿o grupo de tipos derivados/objetos temos os objetos Javascript que incluem funções, arrays e expressões regulares. Todos estes são do tipo `object`.
 
 ```javascript
-// array
-const numbers = [1, 2, 3, 4, 5]
+// object
+const person = {
+    name: 'Ricardo',
+    age: 39
+}
 
 // function
 function double(number) {
   return number * 2
 }
 
-// expressão regular
+// array
+const numbers = [1, 2, 3, 4, 5]
+
+// regular expression
 const pattern = /\d{2,4}/g
 ```
