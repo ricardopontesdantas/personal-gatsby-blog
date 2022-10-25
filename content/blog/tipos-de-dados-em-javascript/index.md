@@ -22,7 +22,7 @@ O valor `undefined` é quando tentamos utilizar uma variável declarada porém n
 
 V﻿amos ver abaixo alguns exemplos:
 
-```
+```javascript
 // number
 const age = 25
 console.log(age)
@@ -46,7 +46,7 @@ console.log(description)
 
 N﻿o grupo de tipos derivados/objetos temos os objetos Javascript que incluem funções, arrays e expressões regulares. Todos estes são do tipo `object`.
 
-```
+```javascript
 // array
 const numbers = [1, 2, 3, 4, 5]
 
