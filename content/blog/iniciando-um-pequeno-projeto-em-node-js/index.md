@@ -3,7 +3,7 @@ title: Iniciando um pequeno projeto em Node.js
 date: 2022-12-09T10:53:04.605Z
 description: Vamos iniciar um pequeno projeto apenas com o básico para estudo
 ---
-*\*Para seguir o tutorial abaixo é necessário ter o Node.js instalado e algum terminal disponível além de um editor de textos que pode ser o VS Code.*
+*Para seguir o tutorial abaixo é necessário ter o Node.js instalado e algum terminal disponível além de um editor de textos que pode ser o VS Code.*
 
 Vamos começar abrindo o terminal e criar uma pasta com o nome fundamentos-node-js e em seguida acessá-la.
 
@@ -23,7 +23,7 @@ Nesse projeto vamos utilizar o Express que é um framework para aplicações web
 
 A﻿gora podemos abrir o VS Code e abrir a pasta do projeto. 
 
-*\*Possivelmente pelo próprio terminal, dentro da pasta do projeto, você conseguirá abrir o VS Code já dentro da pasta do projeto com o comando* `code .`
+*Possivelmente pelo próprio terminal, dentro da pasta do projeto, você conseguirá abrir o VS Code já dentro da pasta do projeto com o comando* `code .`
 
 V﻿ocê irá observar que agora além do arquivo package.json temos também o package-lock.json e a pasta node_modules. O package-lock.json é apenas um arquivo de mapeamento do package.json e não devemos mexer nele. A pasta node_modules é a que contém as dependências instaladas que no momento tem todas as dependências que o Express precisa para executar.
 
@@ -58,7 +58,7 @@ O﻿ que fizemos no código?
 
 E﻿ntão agora podemos rodar nossa aplicação com o seguinte comando
 
-n﻿ode src/index.js
+`n﻿ode src/index.js`
 
 O﻿ terminal não dará nenhuma resposta, porque também não configuramos nenhuma, ele apenas irá ficar parado. Então podemos abrir o navegador e acessar o endereço localhost:3333 para vermos a resposta.
 
