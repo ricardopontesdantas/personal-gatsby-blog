@@ -6,32 +6,28 @@ description: Neste post vamos começar a falar sobre arrays, como inicializar um
 ---
 O A﻿rray é uma estrutura de dados que nos permite armazenar dados de um mesmo tipo. Apesar de o Javascript nos permitir armazenar dados de diferentes tipos isso é incomum de ser visto e não é uma boa prática.
 
-
-
 ## I﻿nicializar um array
 
 A﻿baixo algumas formas distintas de se inicializar um array.
 
 ```javascript
-// inicializa um array vazio através do construtor Array
-new Array()
+// inicializa um array vazio através do construtor Array e atribui a variável months
+let months = new Array()
 
-// inicializa um array de tamanho 12 através do construtor Array
-new Array(12)
+// inicializa um array de tamanho 12 através do construtor Array e atribui a variável months
+months = new Array(12)
 
-// inicializa um array com já com os dados através do construtor Array
-new Array('january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december')
+// inicializa um array com já com os dados através do construtor Array e atribui a variável months
+months = new Array('january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december')
 
-// inicializa um array vazio através dos colchetes
-[]
+// inicializa um array vazio através dos colchetes e atribui a variável months
+months = []
 
-// inicializa um array já com os dados através dos colchetes
-['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december']
+// inicializa um array já com os dados através dos colchetes e atribui a variável months
+months = ['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december']
 ```
 
 É﻿ mais comum vermos um array sendo inicializado com os colchetes ao invés de se criar uma instância de Array.
-
-
 
 ## T﻿amanho de um array
 
